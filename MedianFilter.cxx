@@ -27,13 +27,13 @@ int main(int argc, char *argv[])
 {  
   PARSE_ARGS ;
 
-  // TEST FOR ARGC
+/*  // TEST FOR ARGC
   if( argc < 4 )
     {
     std::cerr << "Usage: " << std::endl;
     std::cerr << argv[0] << "  inputImageFile   outputImageFile  -r  valeurRadius" << std::endl;
     return EXIT_FAILURE;
-    }
+    } --> not necessary with the line PARSE_ARGS */
 
 
   // TEST FOR RADIUS VALUE
