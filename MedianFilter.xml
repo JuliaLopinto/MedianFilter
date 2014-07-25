@@ -29,6 +29,7 @@
       <description>radius value</description>
       <constraints>
         <minimum>1</minimum>
+        <maximum>10</maximum>
       </constraints>
     </integer>
     </parameters>
