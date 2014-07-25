@@ -46,7 +46,7 @@ set_tests_properties(WrongInput PROPERTIES WILL_FAIL true )
 ##########################	  TESTS FOR COMPARAISON      ##########################
 #######################################################################################
 
-# Test 4 : Comparaison with a picture of radius 2
+# Test 4 : Comparison with a picture of radius 2
 add_test(NAME MedianFilterRadius2 COMMAND $<TARGET_FILE:MedianFilterTest>
  --compare
    ${BaselineT2Radius2}
@@ -57,7 +57,7 @@ add_test(NAME MedianFilterRadius2 COMMAND $<TARGET_FILE:MedianFilterTest>
    -r 2
 )
 
-# Test 5 : Comparaison with a picture of radius 4
+# Test 5 : Comparison with a picture of radius 4
 add_test(NAME MedianFilterRadius4 COMMAND $<TARGET_FILE:MedianFilterTest>
  --compare
    ${BaselineT2Radius4}
